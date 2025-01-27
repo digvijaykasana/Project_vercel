@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask API Interaction</title>
+</head>
+<body>
+    <h1>Flask API</h1>
+    <h2>Calculate</h2>
+    <form action="/" method="post">
+        <input type="text" name="data" placeholder="Enter expression e.g., 10 + 5">
+        <input type="hidden" name="action" value="calculate">
+        <button type="submit">Calculate</button>
+    </form>
+    <h2>String Utilities</h2>
+    <form action="/" method="post">
+        <input type="text" name="data" placeholder="Enter string">
+        <input type="hidden" name="action" value="string_util">
+        <button type="submit">Process String</button>
+    </form>
+</body>
+</html>
